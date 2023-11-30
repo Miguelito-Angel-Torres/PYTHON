@@ -1,0 +1,26 @@
+-- CURSO PYTHON 1 -- MAS VIDEOS
+https://www.youtube.com/watch?v=Mej4-fWOxds&list=PLyvsggKtwbLW1j0d5yaCkRF9Axpdlhsxz&index=79
+-- CURSO PYTHON 2
+https://www.youtube.com/watch?v=Jdb1dC8usFo&list=PLVzwufPir354WNwHbct7zWe2ZN9rQi4Il
+-- CURSO POO
+https://www.youtube.com/watch?v=W-4NfDXuk7w&list=PLg9145ptuAigw5pV_DRznXdOsX19dorDs&index=19
+-- CURSO NUMPY
+#https://www.youtube.com/watch?v=OldAV-En8gE&list=PLg9145ptuAij_8zYgMeqwOV8ABwRYLuR3&index=11
+-- CURSO PANDAS
+https://www.youtube.com/watch?v=2KCQQHpi2Qk&list=PLg9145ptuAig5cwvUCn9FNSUJyXBiFcVg
+https://www.youtube.com/watch?v=LnH_STJ2GXo&list=PLVs9JdE6ZZh0RBT7lIPxUkcTmAUhMEimn&index=1
+-- CURSO ESTADISTICA DESCRIPTIVA
+https://www.youtube.com/watch?v=pqXjF8kiLVw&list=PLoOgewM4qFa6bJXw96CPuOu4AAktA3Gk9&index=4
+-- APRENDER MAS DE POO
+https://www.youtube.com/watch?v=JVNirg9qs4M
+
+
+
+
+
+
+
+
+
+
+

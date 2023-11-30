@@ -1,0 +1,423 @@
+Queremos realizar un estudio sobre una propiedad o caracteristica
+en un determinado conjunto.
+- Poblacion: constituye el conjunto donde vamos a realizar el estudio
+- Individuo: Cada uno de los elementos de la poblacion.(Persona,Animal,Objetos...)
+Podemos considerar toda la poblacion pero en ocasiones esa poblacion puede ser
+muy grande,entonce seleccionamos en forma de cuadro una parte de esa poblacion
+para realizar en esta el estudio se le denomina: Muestra
+-Muestra: Subconjunto de la poblacion donde recogeremos los datos
+- Caracter estadistico: propiedad considerada para cada un de los individuos al
+realizar un estudio estadistico.
+# Los caracteres estadisticos pueden ser de dos tipos:
+Caracteres cualitativos: Son aquellos que no toman valores numericos Ejem:
+Color de Ojos,Grupo Sanguineo, profesion de una persona, nivel de estudio.
+Caracteres cuantitativos: Son aquellos que toman valores numeros,tambien los
+llamaremos variable estadisticas(Caracter cuantitativo)
+Las variables estadisticas pueden ser dos tipos:
+--Variable estadisticas discretas: Son aquellas variables estadisticas que solo
+pueden tomar un numero finito o numerable de valores: Ejem: edad,numeros de goles
+marcados por un equipo de fulbol,numeros de hijos de una familia...
+--Variables estadistica continua. Son aquellas que pueden tomar cualquier valor
+en un intervalos: la estatula,el peso,el nivel del colesterol de una persona,la 
+distancia recorridos por un fulbolista...
+
+Para realizar el estudio estadistico,recogeremos los valores del caracter estadistico para cada individuo de la muestra.
+Recopilaremos la informacion obtenida en una tabla.Estas tablas pueden ser de dos
+tipos
+1. Tablas de datos simples: Donde incluimos todo los datos y las veces que aparece
+cada uno de estos
+2. Tablas de datos agrupados en intervalos:Donde incluimos intervalos que contiene a los datos, y para cada uno de estos intervalos, el numero de datos que estan en este.
+
+# Tabla de estadistica con Datos simples:
+5 1 7 9 7  4 3 6 0 5  Notas de los alumnos en un examen
+8 3 7 6 10 9 6 7 5 4 
+
+Una tabla de datos simples es una tabla donde se recogen los distintos datos,las veces que se dan estos,y tambien puede contener otros valores correspondientes a la variable estadistica considerada.
+Para empezar, en una tabla de datos simples incluiremos una primera columna donde introduciremos los distintos datos Xi.
+En segundo lugar incluimos una columna donde introducimos las frecuencias absolutas fi correspondientes a los datos de la primera columna.
+La frecunecia fi de un dato xi es el numero de veces que aparace dicho dato.
+Al final de esta columna,incluiremos la suma w(w parrado)fi(Indica la suma de las frecuencias) - N 
+
+Tambien podemos incluir una columna con la frecuencia absolutas acumuladas Fi.
+La frecuencia absoluta acumulada Fi de un dato xi es su frecuencia absoluta fi
+mas la suma de las frecuencias absolutas de los datos menores o igual que este
+
+Finalmente, podemos tambien incluir una columna con las frecuencia relativas hi de cada uno de los datos hi = fi/N , debe obtener 1 en la suma de las frecuencias relativas hi
+
+Xi  fi   Fi  hi
+0   1    1   0,05
+1   1    2   0,05
+3   2    4   0,1
+4   2    6   0,1
+5   3    9   0,15
+6   3    12  0,15
+7   4    16  0,2  
+8   1    17  0,05
+9   2    19  0,01
+10  1    20  0,05
+    20 = N  S = 1
+
+# Tablas estadisticas de datos agrupados en intervalos
+Las tablas de datos agrupados en intervalos se utilizan:
+    1. Cuando tenemos una variable estadistica continua
+    2. Cuando existen pocas repeticiones en los datos
+En estos casos,resulta conveniente agrupar los datos en intervalos,que aunque lleva a perder precision,ganamos en una mejor comprension en la informacion que se obtiene de estos datos.
+Consideraremos intervalos de la forma [a,b)] Considaremos intervalos cerrados por la izquierda y abierto por la derecha,intervalo cerrado en a abierto en b que seria : {x E R | a <= x < b }.
+en a el intervalo cerrado tenemos que el intervalo contiene a y como el intervalo en b es abierto
+tenemos que este intervalo no contiene a b
+Cada uno de estos intervalos se identifica por su marca de clase del intervalo y que corresponde al punto medio de este,que es xi = a + b /2
+Construccion de la tabla de datos agrupados en intervalos
+    - En una primera columna incluimos los intervalos
+    - En una segunda columna incluimos las marcas de clase correspondientes a los intervalos
+    - En una tercera columna incluimos las frecuencias absolutas fi
+    - Tambien podemos incluir nuevas columnas para la frecuencias absolutas acumuladas Fi y para las frecuencias relativas hi
+
+77,3  82,1  73,1  83,3  75   79,8 85,2 80,4  79  Pesos de los fulbolistas de un equipo
+71,1  86,7  68,7  80,4  72,4 82,5 70,3 69,2
+84,8  78,9  81,9  76,2  89,7  83,2 77,4 74,6      
+
+Mayor : 89,7
+Menor : 68,7
+
+[65,70),[70,75),[75,80),[80,85),[85,90)
+
+Intervalos   Xi  = a + b/2   fi      Fi    hi(Frecuencia relativa) las veces que se repite un numero 
+[65,70)     67,5             2       2      0,08
+[70,75)     72,5             5       7      0,2
+[75,80)     77,5             7       14     0,28
+[80,85)     82,5             8       22     0,32
+[85,90)     87,5             3       25     0,12
+                             25 N            1 
+
+# Graficos estadisticos:
+En los graficos estadisticos incluiremos informacion sobre la frecuencias absoluta y la frecuencia absoluta acumuladas y presentaremos distintos graficos segun tengamos una tabla de datos simples o una tabla de datos agrupados en intervalos.
+-- Graficos para tablas de datos simples  5 1 7 9 7  4 3 6 0 5  Notas de los alumnos en un examen
+                                          8 3 7 6 10 9 6 7 5 4 
+Xi  fi   Fi  hi 
+0   1    1   0,05
+1   1    2   0,05
+3   2    4   0,1
+4   2    6   0,1
+5   3    9   0,15
+6   3    12  0,15
+7   4    16  0,2  
+8   1    17  0,05
+9   2    19  0,01
+10  1    20  0,05
+    20 = N  S = 1
+# Poligono de frecuencia
+fi             
+    |
+  5 |_
+  4 |_               .
+  3 |_           . . |
+  2 |_       . . | | |   .
+  1 |_ . .   | | | | | . | .
+    |  | |   | | | | | | | |
+    |__|_|_._|_|_|_|_|_|_|_|___
+       0 1 2  3 4 5 6 7 8 9 10  xi
+# Diagrama de barras para la frecuencia absolutas acumuladas
+
+Fi
+ 
+  20|_                     .  
+  19|_                   . | 
+  17|_                 . | |
+  16|_               . | | |
+  12|_             . | | | |
+  9 |_           . | | | | |
+  6 |_         . | | | | | |
+  4 |_       . | | | | | | |
+  2 |_   .   | | | | | | | |
+  1 |_ . |   | | | | | | | |
+    |  | |   | | | | | | | |
+    |__|_|_._|_|_|_|_|_|_|_|___
+       0 1 2 3 4 5 6 7 8 9 10  xi
+# Graficos para tablas de datos agrupados en intervalos
+77,3  82,1  73,1  83,3  75   79,8 85,2 80,4  79  Pesos de los fulbolistas de un equipo
+71,1  86,7  68,7  80,4  72,4 82,5 70,3 69,2
+84,8  78,9  81,9  76,2  89,7  83,2 77,4 74,6 
+
+Intervalos   Xi  = a + b/2   fi      Fi    hi(Frecuencia relativa) fi/N   Ang. 0,08 * 360 grados
+[65,70)     67,5             2       2      0,08                          28,8 g
+[70,75)     72,5             5       7      0,2                           72 g
+[75,80)     77,5             7       14     0,28                          100.8 g
+[80,85)     82,5             8       22     0,32                          115.2 g
+[85,90)     87,5             3       25     0,12                           43.2 g     
+                             25 N            1                           Total : 360 g
+Histograma de frecuencia absoluta:
+fi             
+    |
+  8 |_          _._
+  7 |_       _._|  |        
+  5 |_    _._|  |  | 
+  3 |_    |  |  |  |_._
+  2 |_ _._|  |  |  |  |
+    |  |  |  |  |  |  | 
+    |__|__|__|__|__|__|__
+       65 70 75 80 85 90  Intervalos
+
+Histograma de frecuencias absolutas acumuladas
+
+fi             
+    |
+  25|_              _._  
+  22|_          _._|  |  
+  14|_       _._|  |  | 
+  7 |_    _._|  |  |  |
+  2 |_ _._|  |  |  |  |
+    |  |  |  |  |  |  | 
+    |__|__|__|__|__|__|__
+       65 70 75 80 85 90  Intervalos
+Diagrama de sectores (circular)
+25 --- 360      __________
+0.08--- x       |    |    | [65,70]  Una referencia al circular 28.8g
+                |    |____| 
+                |         |
+                |_________|
+# Parametros de centralizacion
+Los primeros parametros asociado a una variable estadistica que son los parametros de centralizacion:
+(Moda,mediana y media)
+Se trata de encontrar un valor central para los datos respecto distinto puntos de vista.
+Consideramos dos variables estadisticas
+0,1,1,1,2,2,2,2,3                               1,2,1,0,2,1,3,1,2,3,0,2
+Mo = 2  
+Me =2       N/2 = 9/2 = 4,5                     Mo = 1,2  
+                                                Me= 1,2  1+2/2 = 1.5   |N/2 = 12/2 = 6  1+2/2 = 1,2|
+xi fi  Fi  xi * fi                                             
+0  1   1     0
+1  3   4     3
+2  4   8     8
+3  1   9     3
+   9        14
+
+Media: X̅ = W(parado) xi*fi/N  = 1,5          Media: X̅ = W(parado) xi*fi/N = 18/12 = 1,5 
+
+- La moda, que denotamos por Mo, es el dato xi con mayor frecuencia absoluta.(dato mas repetivo).En el caso de que existan varios datos con mayor frecuencia absoluta,diremos que esos son las modas de la variable estadisticas
+Si tenemos dos modas,diremos que la variable estadistica es bimodal,si tenemos tres, diremos que la variable estadistica es trimodal...
+- La mediana,que denotaremos por Me, es el valor que,una vez ordenados los datos de menor a mayor,
+incluyendo repeticiones,ocupa la posicion central.En el caso de que sean dos los datos que ocupan la posicion central,la mediana sera la semisuma de estos(Sumar y dividir x 2).
+Cuando el numero de datos es grande,deberemos calcular la mediana utilizando la tabla de datos simples
+Para ello añadimos la columna con las frecuencia absoluta acumulada Fi,Entonces calculamos N/2
+Si este valor no aparece entre la frecuencias absolutas acumuluda,la mediana es el primer dato cuya
+frecuencia absoluta acumulada supera a dicho valor
+Si este valor aparece como una frecuencia absoluta acumulada,la mediana sera la semisuma del dato a esta frecuencia absoluta y el siguiente dato.
+- La media seria el valor central
+
+la media -----  X̅ = W(parado: La suma de todos) xi*fi/N 
+
+# Parametro de dispersion:
+Son aquellos que permite pedir como de separado esta los datos de una variable estadistica
+Los parametros de dispersion miden como de separados estan los datos.
+
+*Rango o recorrido --- Rango: dato mayor menos el datos menor
+*Desviacion media(Que es la media que la distancia de los datos a la media) --- 
+ DM = Σ| xi - X̅| * fi/N
+*Varianza(como esta separados los datos con respeto a la media) -- VAR = Σ(xi - X̅)elevado al 2 * fi
+= Σxi elevado al 2 * fi/N - X̅ elevado al 2
+*Desviacion tipica --- DT =  √VAR
+*Coeficiente de variacion -- CV = DT/X̅
+
+
+# Tabla de estadistica con Datos simples:
+5 1 7 9 7  4 3 6 0 5  Notas de los alumnos en un examen
+8 3 7 6 10 9 6 7 5 4 
+
+Xi  fi   Fi  hi      Xi * fi   |xi - X̅|    |xi - X̅|*fi  x eleveda al 2 * fi
+0   1    1   0,05     0        5,6            5,6         0
+1   1    2   0,05     1        4,6            4,6         1
+3   2    4   0,1     6         2,6             5,2       18
+4   2    6   0,1     8         1,6            3,2         32
+5   3    9   0,15    15        0,6            1,8         75
+6   3    12  0,15    18        0,4            1,2         108
+7   4    16  0,2     28        1,4            5,6         196
+8   1    17  0,05     8        2,4            2,4          64
+9   2    19  0,01    18         3,4           6,8         162
+10  1    20  0,05    10         4,4           4,4         100
+    20 = N  S = 1   112                        40,8      756
+  
+RANGO = 10 - 0 = 10
+MEDIA =  X̅ = Σ(La suma de todos) xi*fi/N = 112/20 = 5,6
+Desviacion media  =  DM = Σ| xi - X̅| * fi/N = 40,8/20 = 2,04
+Varianza = VAR = Σxi elevado al 2 * fi/N - X̅ elevado al 2 = 756/20 - 31,26 = 6,44
+Desviacion tipica =  DT =  √VAR = 2.54
+Coeficiente de variacion = CV = DT/X̅  = 2.54/5,6 = 0,45
+
+# Parametros de posicion:
+Los parametros de posicion son la mediana,los cuartiles,los deciles y los percentiles
+ - Cuartiles  -- Dividimos los datos en cuatro partes
+  C1 -- Proceso primero : Una vez ordenado todo los datos incluyendo las repeticiones de estos
+  Es el dato que deja por debajo de él la 1/4 parte de los datos. 
+  C2 -- Proceso segundo : Es el dato que deja por debajo de el las 2/4 partes de los datos -- (Mediana)
+  C3 -- Proceso tercero : Es el dato que deja por debajo de el las 3/4 partes de los datos
+  
+  Trabajaremos con un tabla de datos simples donde incluiremos la columna con las frecuencias absolutas acumuladas.
+    C1 -- N/4     C2 -- 2N/4    C3 -- 3N/4  
+  Para obtener un cuartil,buscamos si el valor correspondiente anterior aparece en la columna de las frecuencias absolutas acumuladas.
+  Si no aparece,el cuartil correspondiente es el primer dato cuya frecuencia absoluta acumulada supera a dicho valor
+  Si este valor aparece como una frecuencia absoluta acumulada,el cuartil seria la semisuma del dato correspondiente y el siguiente dato,esto es,sumamos estos dos datos y dividimos entre 2.
+
+  - Deciles -- Dividimos los datos en 10 partes. D1 D2 D3 ... D9
+  K entero entre 1 y 9 DK:Dato que deja por debajo de él las k/10 partes de los datos.
+                      kN/10
+  Buscamos si el valor correspodiente anterior aparece en la columna de las frecuencias absolutas acumuladas.
+  Si no aparece,Dk es el primer dato cuya frecuencia absoluta acumulada supera dicho valor.
+  Si este valor como frecuncia absoluta acumulada,Dk seria la semisuma del dato correspodiente y el siguiente numero,esto es,sumamos estos dos datos y dividimos entre 2.
+
+  -Percentiles -- Dividimos los datos en 100 partes P1,P2..P99
+  k entero entre 1 y 99 . Pk: Dato que deja por debajo de el las k/100 partes de los datos
+                          KN/100
+  Buscamos si el valor correspodiente anterior aparece en la columna de las frecuencia absolutas acumuladas.
+  Si no aparece, Pk es el primer dato cuya frecuncia absoluta acumulada supera dicho valor.
+  Si este valor aparece como una frecuencia absoluta acumulada.
+
+  # Tabla de estadistica con Datos simples:
+  5 1 7 9 7  4 3 6 0 5  Notas de los alumnos en un examen
+  8 3 7 6 10 9 6 7 5 4 
+
+  Xi  fi   Fi  hi         
+  0   1    1   0,05
+  1   1    2   0,05
+  3   2    4   0,1
+  4   2    6   0,1
+  5   3    9   0,15
+  6   3    12  0,15
+  7   4    16  0,2  
+  8   1    17  0,05
+  9   2    19  0,01
+  10  1    20  0,05
+     20 = N  S = 1
+
+  Me = 6
+  -- Cuartiles
+  C1 = 4        C2 = 6                   C3 = 7
+  N/4         2N/4                 3N/4
+  20/4 = 5     40/4 = 10           60/4 = 15        
+  
+  -- Deciles
+
+  D4 = 5                    D8                   
+
+  4N/10 = 80/ 10 = 8      8N/10 = 160/10 = 16 
+                          7 + 8  = 15/2 = 7.5  
+
+  --Percentiles : Es el dato que dejaria por debajo de el 45% de los datos
+
+  P45 =  45N/100 = 45.20/100 = 9    P95 = 95N/100 = 95.20/100 = 19
+          5 + 6/2 = 11/2 = 5.5      9 + 10 /2 = 9,5
+
+
+# Parametros para datos agrupados en intervalos
+
+7,3  82,1  73,1  83,3  75   79,8 85,2 80,4  79  Pesos de los fulbolistas de un equipo
+71,1  86,7  68,7  80,4  72,4 82,5 70,3 69,2
+84,8  78,9  81,9  76,2  89,7  83,2 77,4 74,6      
+
+Mayor : 89,7
+Menor : 68,7
+
+[65,70),[70,75),[75,80),[80,85),[85,90)
+
+Intervalos   Xi  = a + b/2   fi      Fi    hi(Frecuencia relativa) las veces que se repite un numero  xi * fi
+[65,70)     67,5             2       2      0,08                                                        135    
+[70,75)     72,5             5       7      0,2                                                        362,5
+[75,80)     77,5             7       14     0,28                                                      542.5
+[80,85)     82,5             8       22     0,32                                                     660
+[85,90)     87,5             3       25     0,12                                                      262.5
+                             25 N            1                                                      1962,5
+Xi - X̅   xi - X̅ * fi          x eleveda al 2 * fi
+11          22                9.112,5
+6         30                  26281.25
+1         7                   42043.75
+4         32                  54450
+9         27                 22968.75
+        118                   154856.25
+
+Moda =  [80,85)
+Mediana(Me) = 25/2 = 12.5 =  [75,80) = Me = 75 + 80 /2  = 77.5
+Intervalo tercer cuartil
+3N/4 = 3*25/4 = 18,75 =  [80,85) , Q3 = 80 + 85 / 2 = 82,5
+Intervalo percentil 86
+P85 =  85N/100 =  85*25/100 = 21.25 [80,85) P85 = 80 + 85 / 2 = 82,5  
+
+RANGO = 89,7 - 68,7 = 21
+//MEDIA =  X̅ = Σ(La suma de todos) xi*fi/N = 1962.5/25 = 78.5
+Desviacion media  =  DM = Σ|xi - X̅| * fi/N = 118 /25 = 4,72 
+Varianza = VAR = Σxi elevado al 2 * fi/N - X̅ elevado al 2 = 154856.25/25 - 6.162,25 =6.194,25 - 6.162,25 = 32
+Desviacion tipica =  DT =  √VAR = 5.66
+Coeficiente de variacion = CV = DT/X̅  = 5.66/78.5 = 0.07
+
+// Introduccion a la estadistica bidimensional y egresion lineal
+
+Ejemplo de Poblacion:
+N individuos - tenemos variables estadisticas 
+x -> x1 x2 ... xn
+y -> y1 y2.....yn
+Para el primer individuo tenemos la pareja x1 con y2 y haci consecutivo (x1,y1),(x2,y2) -- (xn,yn)
+X ->  X̅,...
+Y -> y(linea arriba),...
+Encontra una relacion,incluso predecir conocido un valor de una de las variables predecir cuanto vandria la otra
+La presentacion grafica es util ,presentar en pareja conocida Nube de datos,nos puede dar una idea cual puede ser la dependencia entre la dos variables,la grafica tambien nos ayuda planificar esa nube de datos, que realizacion existre entre estos datos.
+X 10 5 9 4  5    2   10 6 3 5  Notas de Matematica X
+Y 10 4 6 10 6.5  4   10 6 9 3.5 Notas de Musica Y
+
+N = 10
+  y 
+  
+  10|_          .                  ..
+  9 |_      .          
+  8 |_              
+  7 |_
+  6 |              . 
+    |_                .       .
+  5 |              .
+    |_           
+  4 |_    .        .                            
+  3 |_   
+  2 |_ 
+  1 |_               
+    |__|__|__|__|__|__|__|__|__|__|
+       1  2  3  4  5  6  7  8  9  10  X
+
+Covarianza y regresion lineal:
+x,y : (x1,y1),(x2,y2)...(xn,yn) 
+N individuos
+Encontrar una relacion entre las dos variables estadisticas x,y
+Despues veremos como calcular las rectas de regresion que permiteran obtener estimacion en una variable funcion a la otra.
+Estas tablas nos va permitir calcular ademas de los parametros para x , y en forma dependiente tambien estos parametros que relaciona con x,y
+ xi yi          xi al cuadrado      yi al cuadrado        xiyi
+ x1 y1            
+ x2 y2
+ 
+Σxi Σyi          Σxi la cuadrado    Σyi al cuadrado    Σxiyi
+
+Supongamos que es 1 las repeticiones
+X̅ = Σxi*1/N      Y(arriba una raya) = Σyi*1/N 
+
+σ2 x = Σxi/N - X̅ al cuadrado
+σ2 y = Σyi/N - Y(mediana) al cuadrado
+
+--Covarianza(Medir la relacion que existe entre las variables x,y)
+σxy = Σxiyi/N - X̅Y(mediana)
+Interpretacion:
+- Valores positivos y  grandes de  σxy indican que cuando una variable crece ,la otra lo hace
+- Valores negativos y grandes de σxy indican que cuando una variable crece,la otra decrece
+- Valores de σxy proximo a 0 indica poca relacion entre x,y
+σxy es sensible a los cambios de escala
+
+Regresion lineal
+Intentar aproximar las nubes de datos por rectas
+"Menor error cuadratico"
+Coeficioente de correlacion: r = σxy/σ2xσ2y
+ -- Interpretacion -1<=r<=1
+ - r es proximo a 0 -> Existe poca relacion entre x e y
+ - r proximo a 1 o 1- -> Indica una relacion fuerte en sentido lineal
+               |   correlacion inversa
+          correlacion directa
+  Recta de regresion de y sobre x : y - y(media) = σxy/σ2x(x-X̅) 
+  Recta de regresion de x sobre y : x - x(media) = σxy/σ2y(y-y(media)) 
+
+"""Desviacion media  =  DM = Σ| xi - X̅| * fi/N = 40,8/20 = 2,04
+Varianza = VAR = Σxi elevado al 2 * fi/N - X̅ elevado al 2 = 756/20 - 31,26 = 6,44
+Desviacion tipica =  DT =  √VAR = 2.54
+Coeficiente de variacion = CV = DT/X̅  = 2.54/5,6 = 0,45"""
